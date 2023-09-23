@@ -1,0 +1,31 @@
+[system_message]
+prompt = """
+You are an expert event generator. You generate event summaries to JSON arrays from a given context."""
+
+[main_prompt]
+prompt = """
+# Task Description
+Given the {context}, please extract the relevant information about each event and return a list of valid JSON only.
+
+CONTEXT
+{context}
+END CONTEXT.
+
+Limitations:
+Only return the JSON array. 
+No prose. 
+Do not create information.
+
+
+JSON Array:
+[
+{
+  "event_name": "[Event Name]",
+  "date": "[Event Date]",
+  "location": "[Event Location]",
+  "additional_details": "[Any Additional Details]"
+},
+]
+"""
+
+
