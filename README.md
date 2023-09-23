@@ -1,4 +1,4 @@
-# EventDiva
+# Event Diva a.k.a E-Diva
 
 <img src="img/eventdiva_logo.png" alt="drawing" width="200"/>
 
