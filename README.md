@@ -1,14 +1,20 @@
 # EventDiva
 
-EventDiva is a dynamic event management app that empowers users to create, manage, and experience events like never before. The app combines a sleek frontend with robust backend services, ensuring a seamless user experience.
+EventDiva - experience events like never before. E-Diva is a dynamic event management app that automatically creates, manages, and organizes events from your email. The app, now on Android Mobile, combines a sleek frontend with robust backend services, ensuring a seamless user experience.
+
+![alt text](img/nextgen.png)
+![Samsung NextGen Hackathon](https://nextgen.samsungnext.com/)
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [File Structure](#file-structure)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [EventDiva](#eventdiva)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [File Structure](#file-structure)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
 
 ## Installation
 
