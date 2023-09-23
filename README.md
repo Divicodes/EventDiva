@@ -47,8 +47,6 @@ EventDiva/
 ├── .gitignore            # Specifies which files to ignore in version control
 ├── LICENSE               # License file
 ├── README.md             # This file, describing the purpose and usage of this app
-├── Untitled Document 3   # Additional documentation or resources
-├── pyvenv.cfg            # Python virtual environment configuration
 └── requirements.txt      # List of dependencies to be installed
 ```
 
