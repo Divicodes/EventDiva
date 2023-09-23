@@ -6,9 +6,9 @@ Experience events like never before. E-Diva is a dynamic event management app th
 
 ## Background
 
-**Problem** Have you had a emails that contain a lot of information about fun and exciting events but they never end up on your calendard.  
-The problem is you just don't have the time to go through all the email and extract the basic information, like where and when it is 
-happening. 
+**Problem** *Have you had a emails that contain a lot of information about fun and exciting events but they never end up on your calendar?*  
+The problem is we get bombarded with email content. You just don't have the time to go through all the email and extract the basic information, 
+like where and when it is happening. 
 
 **Solution.** E-Diva solves that by automatically extracting the events from your emails and allows you to quickly add them to your calendar.
 
