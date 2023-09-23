@@ -18,7 +18,7 @@ dotenv.load_dotenv()
 def extract_event(context=None,test=False): 
 
     """Extracts event name, date, location and additional details from a text"""
-    
+
     extract_schema = {
         "properties": {
             "event_name": {"type": "string",
@@ -34,15 +34,11 @@ def extract_event(context=None,test=False):
 
     # Input 
 
-    if test:
-        with open("../data/example.txt", "r") as f:
-             CONTEXT = f.read()
-
     # Run chain
     llm = ChatOpenAI(openai_api_key=os.getenv('OPENAI_API_KEY'), max_tokens = 2056,
     temperature=0, model="gpt-3.5-turbo")
     chain = create_extraction_chain(extract_schema, llm)
-    response = chain.run(CONTEXT)
+    response = chain.run(context)
 
     # Schema
     tag_schema = {
@@ -76,4 +72,11 @@ def extract_event(context=None,test=False):
         l.append(r)
     return {"response":l}
 
-print(extract_event(test=True))
+############################################################################################################
+##Testing##
+
+for i in [e for e in os.listdir('../data/') if 'example' in e]:
+    print(i)
+    with open(f"../data/{i}", "r") as f:
+        context= f.read()
+    print(extract_event(context,test=True))
