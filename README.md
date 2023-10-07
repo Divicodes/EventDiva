@@ -87,8 +87,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - example@example.com
+Divija - divicodes@gmail.com
+Silas - silaseverett@gmail.com
+Luis - luis.wenus@gmail.com
+Noel - noelpereira2500@gmail.com
 
-Project Link: [https://github.com/your_username_/EventDiva](https://github.com/your_username_/EventDiva)
 
-This README is a template and should be customized according to the actual details and features of your app. Also, replace placeholders such as `your_username_` and `example@example.com` with your actual GitHub username and contact information, respectively.
+
+
