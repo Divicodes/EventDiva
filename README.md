@@ -12,7 +12,7 @@ like where and when it is happening.
 
 **Solution.** E-Diva solves that by automatically extracting the events from your emails and allows you to quickly add them to your calendar.
 
-E-Diva is a project inspired at Samsung NextGen Hackathon September 23-24, 2023 at Fort Mason, San Francisco.
+E-Diva is a project idea that I came up with at Samsung NextGen Hackathon September 23-24, 2023 at Fort Mason, San Francisco.
 
 <img src="img/nextgen.png" alt="drawing" width="200"/>
 
@@ -27,49 +27,6 @@ E-Diva is a project inspired at Samsung NextGen Hackathon September 23-24, 2023 
   - [License](#license)
   - [Contact](#contact)
 
-## Installation
-
-Before you start the installation, ensure that you have Python installed on your system.
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your_username_/EventDiva.git
-   ```
-
-2. Navigate to the project directory:
-   ```sh
-   cd EventDiva
-   ```
-
-3. Install the required packages:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-4. Start the application:
-   ```sh
-   python src/app.py
-   ```
-
-## File Structure
-
-```
-EventDiva/
-│
-├── Frontend/EventDiva/   # Frontend starter code
-├── data/                 # Contains tag data
-├── scraps/               # Work-in-progress and temporary files
-├── src/                  # Source code of the app
-│
-├── .gitignore            # Specifies which files to ignore in version control
-├── LICENSE               # License file
-├── README.md             # This file, describing the purpose and usage of this app
-└── requirements.txt      # List of dependencies to be installed
-```
-
-## Usage
-
-After installation, you can use EventDiva to create and manage your events. For detailed usage instructions, please refer to the [user guide](docs/UserGuide.md) or navigate to the `help` section in the app.
 
 ## Contributing
 
